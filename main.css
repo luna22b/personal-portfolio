@@ -14,6 +14,8 @@ body {
 .nav-links {
     width: 850px;
     height: 100px;
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -22,6 +24,7 @@ body {
     color: inherit;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .nav-links,  a {
