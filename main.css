@@ -14,20 +14,37 @@ body {
 .nav-links {
     width: 850px;
     height: 100px;
+    align-items: center;
+}
+
+.nav-links ul {
+    list-style: none;
+    color: inherit;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
 }
 
 .nav-links,  a {
     color: black;
     text-decoration: none;
-    color: inherit;
     margin-left: 45px;
 }
 
 .logo {
     font-size: 1.4em;
     cursor: pointer;
+    margin: 20px 10px;
+    white-space: nowrap;
 }
 
+@media (max-width: 1185px) {
+    .navbar {
+        width: 800px;
+    }
+}
+
+.navbar,
+.nav-links,
+.logo {
+    transition: all 0.3s ease;
+}
