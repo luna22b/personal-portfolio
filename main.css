@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    font-size: 1.1em;
 }
 
 .nav-links ul {
@@ -34,20 +35,29 @@ body {
 }
 
 .logo {
-    font-size: 1.4em;
+    font-size: 1.45em;
     cursor: pointer;
     margin: 20px 10px;
     white-space: nowrap;
 }
 
-@media (max-width: 1185px) {
+@media (max-width: 1200px) {
     .navbar {
         width: 800px;
+        transition: all 0.3s ease;
     }
 }
 
-.navbar,
-.nav-links,
-.logo {
-    transition: all 0.3s ease;
+@media (min-width: 1201px) {
+    .navbar {
+        width: 1100px;
+        transition: all 0.3s ease;
+    }
 }
+
+@media (max-width: 900px) {
+    .nav-links {
+        display: none;
+    }
+}
+
