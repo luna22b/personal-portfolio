@@ -2,22 +2,21 @@ body {
     font-family: Poppins, Roboto, sans-serif;
 }
 
+/* navigation bar */
 .navbar {
-    height: 100px;
-    width: 1100px;
     margin: 0 auto;
     display: flex;
+    max-width: 1100px;
     justify-content: space-between;
     align-items: center;
 }
 
 .nav-links {
-    width: 850px;
     height: 100px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .nav-links ul {
@@ -32,25 +31,64 @@ body {
     color: black;
     text-decoration: none;
     margin-left: 45px;
+    color: #3f3f46;
+    font-weight: 500; 
 }
 
 .logo {
-    font-size: 1.45em;
+    font-size: 1em;
     cursor: pointer;
     margin: 20px 10px;
     white-space: nowrap;
 }
 
+
+/* main body */
+.hello-main {
+    display: flex;
+    margin-top: 8rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-section {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.intro-name {
+    color: #507C7C;
+}
+
+.job-title {
+    font-size: 1.8em;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.intro-bio {
+    justify-content: center;
+    text-align: center;
+    max-width: 950px;
+    color: #3f3f46;
+}
+
+a:hover {
+    color: #507C7C;
+}
+
+/* responsive */
 @media (max-width: 1200px) {
     .navbar {
-        width: 800px;
+        max-width: 800px;
         transition: all 0.3s ease;
     }
 }
 
 @media (min-width: 1201px) {
     .navbar {
-        width: 1100px;
+        max-width: 1100px;
         transition: all 0.3s ease;
     }
 }
