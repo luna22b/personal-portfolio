@@ -74,6 +74,11 @@ body {
     color: #3f3f46;
 }
 
+.logo {
+    color:  #507C7C;
+    font-size: 1.5em;
+}
+
 a:hover {
     color: #507C7C;
     transition: color 0.2s;
