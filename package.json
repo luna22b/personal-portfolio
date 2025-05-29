@@ -1,0 +1,22 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "This is my personal portfolio to showcase my skills.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luna22b/personal-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luna22b/personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/luna22b/personal-portfolio#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
