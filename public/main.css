@@ -106,6 +106,7 @@ hr {
     justify-content: center;
     align-items: center;
     visibility: hidden;
+    cursor: pointer;
 }
 
 /* responsive */
