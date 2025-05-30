@@ -101,12 +101,16 @@ hr {
 }
 
 .hamburger {
-    font-size: 2em;
+    font-size: 1.8em;
     display: flex;
     justify-content: center;
     align-items: center;
     visibility: hidden;
     cursor: pointer;
+}
+
+.dropdown {
+    display: none;
 }
 
 /* responsive */
@@ -128,7 +132,32 @@ hr {
     .hamburger {
         visibility: visible;
     }
+
+    .dropdown {
+        position: absolute;
+        top: 80px;
+        right: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        display: none;
+        flex-direction: column;
+        padding: 15px 0;
+        text-align: left;
+        width: 140px;
+    }
+
+    .dropdown.active {
+        opacity: 1;
+        display: flex;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
   
+    .dropdown a {
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
     .nav-links {
         display: none;
     }
