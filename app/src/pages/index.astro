@@ -9,13 +9,16 @@ import ContactAstroComponent from "../components/Contact.astro";
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Brandon Luna</title>
   </head>
-  <body class="bg-[oklch(0.21_0.006_285.885)] max-w-2xl mx-auto text-white">
-	  <NavbarAstroComponent />
-    <AboutAstroComponent />
-    <ProjectsAstroComponent />
-    <ContactAstroComponent />
+
+  <body class="min-h-screen bg-[oklch(0.21_0.006_285.885)] text-white">
+    <main class="w-full max-w-2xl mx-auto px-4 sm:px-6 lg:px-0">
+      <NavbarAstroComponent />
+      <AboutAstroComponent />
+      <ProjectsAstroComponent />
+      <ContactAstroComponent />
+    </main>
   </body>
 </html>
